@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+
+    <style>
+        body {
+            background-color: rgb(247, 247, 247);
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 20px;
+        }
+
+
+
+        input {
+            border: 1px solid gainsboro;
+            background: whitesmoke;
+            border-radius: 5px;
+            outline-color: #a855f7;
+            padding: 8px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            box-shadow: 0px 6px 9px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            width: 300px;
+            height: 400px;
+            padding: 20px
+        }
+
+        .login-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+
+        button {
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+        }
+
+        .button-login {
+            font-weight: bold;
+            background-color: #a855f7;
+            color: white;
+
+        }
+
+        .button-reset {
+            border: 1px solid whitesmoke;
+            background-color: white;
+        }
+
+
+        .button-panel {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="https://anugerahgari.github.io/siu-profile/">
+        <div class="container">
+            <h1 class="title">Login</h1>
+            <p>Welcome back again 👋</p>
+            <div class="login-card">
+                <input type="email" name="username" id="username" placeholder="example@gmail.com">
+                <input type="password" name="password" id="password" placeholder="●●●●●">
+                <button class="button-login" type="submit">Login</button>
+                <button class="button-reset" type="reset">Reset</button>
+            </div>
+    </form>
+
+</body>
+
+</html>
